@@ -3,6 +3,7 @@
 A Bash script for generating a cryptographic hash value of all files under a given path
 
 ## Features
+* Uses the SHA-2 512/256 cryptographic hash function
 * Outputs the result to the terminal, as well as saves the final result in a timestamped .txt file.
 * Also saves the hashes of every individual file in a separate timestamped .txt file.
 * Includes a script to change permissions of files to deny writing.
@@ -10,7 +11,7 @@ A Bash script for generating a cryptographic hash value of all files under a giv
 * Uses standard Bash commands.
 * Light weight design.
 * Simple design and usage.
-* Includes explanation of commands withing the script comments
+* Includes explanation of commands withing the script comments.
 
 ## Installation
 None required; simply dowload the script then execute it from the terminal.

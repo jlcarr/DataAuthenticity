@@ -1,7 +1,6 @@
 #!/bin/bash
 
 filePath="/path/to/files"
-
 fileName="hash_data_date_$(date +"%Y-%m-%d")_time_$(date +"%H_%M_%S").txt"
 
 
